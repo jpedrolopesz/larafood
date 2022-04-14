@@ -4,7 +4,113 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="385cc6a2-fe31-4dea-8b8a-7856c35db1f5" name="Changes" comment="" />
+    <list default="true" id="385cc6a2-fe31-4dea-8b8a-7856c35db1f5" name="Changes" comment="Commit Test Application">
+      <change afterPath="$PROJECT_DIR$/tests/Feature/Api/AuthTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/Api/CategoryTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/Api/Evaluationtest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/Api/ProductTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/Api/RegisterTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/Api/TableTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/Api/TenantTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ACL/PermissionController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ACL/PermissionProfileController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ACL/PermissionRoleController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ACL/PlanProfileController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ACL/ProfileController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ACL/RoleController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ACL/RoleUserController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryProductController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/DashboardController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/DetailPlanController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/PlanController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/TableController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/TenantController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/UserController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/Auth/AuthClientController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/Auth/RegisterController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/CategoryApiController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/EvaluationApiController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/OrderApiController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/ProductApiController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/TableApiController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/TenantApiController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ConfirmPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Site/SiteController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/Api/StoreEvaluationOrder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/Api/StoreOrder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/Api/TenantFormRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreClient.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreUpdateCategory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreUpdateDetailPlan.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreUpdatePermission.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreUpdatePlan.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreUpdateProduct.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreUpdateProfile.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreUpdateRole.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreUpdateTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreUpdateTenant.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreUpdateUser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Resources/CategoryResource.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Resources/ClientResource.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Resources/EvaluationResource.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Resources/OrderResource.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Resources/ProductResource.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Resources/TableResource.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Resources/TenantResource.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Category.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Client.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/DetailPlan.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Evaluation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Order.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Permission.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Plan.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Product.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Profile.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Role.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Tenant.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Traits/UserACLTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/CategoryFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/ClientFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/OrderFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/PlanFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/ProductFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/TableFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/TenantFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_10_132933_create_plans_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_11_190648_create_tenants_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2022_03_31_223057_create_detail_plans_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2022_04_02_170820_create_profiles_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2022_04_04_000444_create_permissions_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2022_04_04_013828_create_permission_profile_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2022_04_04_145650_create_plan_profile_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2022_04_05_153600_create_categories_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2022_04_05_184147_create_products_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2022_04_05_213015_create_tables_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2022_04_06_173248_create_roles_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2022_04_07_171617_create_role_user_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2022_04_09_223304_create_clients_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2022_04_10_160954_create_orders_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2022_04_10_210736_create_evaluations_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +132,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="27kpoSLHxarGpZcZI0hSmUEy4oX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,12 +149,6 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
-      <option name="pathToComposerJson" value="$PROJECT_DIR$/api/composer.json" />
-      <method v="2" />
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
